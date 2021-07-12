@@ -14,5 +14,5 @@ Use the Output.py to generate summaries.
 For this the files are fetched from Files/test and in this there should be seperate folder for each transcript file.
 The output will be generated in Output folder
 
-<h4> Use the drive link to get the fine tuned model </h4>
+<h4> Use the drive link to get the fine tuned model: https://drive.google.com/file/d/1JRaeCee2D0XFNTdkHCOa3iizUkUNA1Uj/view?usp=sharing </h4>
 <h5> Use requirements.txt to install the required dependencies </h5>
