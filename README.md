@@ -1,7 +1,7 @@
 # Automin_Submission
 ## Task A
 
-<h2> Fine Tuning Model </h2>
+<h2> Fine Tuning The Model </h2>
 Use the Model.py file to create the fine Tuned model.
 For this the data should be inside Files/train and dev folders.
 
@@ -16,3 +16,5 @@ The output will be generated in Output folder
 
 <h4> Use the drive link to get the fine tuned model: https://drive.google.com/file/d/1JRaeCee2D0XFNTdkHCOa3iizUkUNA1Uj/view?usp=sharing </h4>
 <h5> Use requirements.txt to install the required dependencies </h5>
+
+<b>The Model used in T5 model</b>
