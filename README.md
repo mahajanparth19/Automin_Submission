@@ -10,6 +10,8 @@ This will create the an Model folder which will have the Fine Tuned Model.
 
 <h2> Summarization </h2>
 Use the Output.py to generate summaries.
-For this the files are fetched from Files/test and in this their should be seperate folder for each transcript file.
+For this the files are fetched from Files/test and in this there should be seperate folder for each transcript file.
+The output will be generated in Output folder
 
 <h4> Use the drive link to get the fine tuned model </h4>
+<h5> Use requirements.txt to install the required dependencies </h5>
