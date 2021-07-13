@@ -19,10 +19,10 @@ for i,(fol,segments) in enumerate(zip(folder_test,text_segments)):
   for segment in segments:
     input_ids = tokenizer("summarize: " + segment, return_tensors="pt").input_ids.to("cuda")
 
-    if(len(segment) < 300):
-    	outputs = model.generate(input_ids=input_ids, num_beams=3, num_return_sequences=1,max_length=100)
-    elif (len(segment) < 150):
+    if(len(segment) < 150):
     	outputs = model.generate(input_ids=input_ids, num_beams=3, num_return_sequences=1,max_length=50)
+    elif (len(segment) < 300):
+    	outputs = model.generate(input_ids=input_ids, num_beams=3, num_return_sequences=1,max_length=100)
     else:
     	outputs = model.generate(input_ids=input_ids, num_beams=3, num_return_sequences=1,max_length=300)
 

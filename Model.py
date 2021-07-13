@@ -5,6 +5,7 @@ nltk.download("stopwords")
 
 from nltk.corpus import stopwords
 stop = stopwords.words("english")
+stop += ["yeah","uh","ok","eh","um","uhm","hm","ye","yea"]
 import pandas as pd
 import numpy as np
 
@@ -111,12 +112,12 @@ batch_size = 1
 args = Seq2SeqTrainingArguments(
     "test-summarization",
     evaluation_strategy = "epoch",
-    learning_rate=2e-5,
+    learning_rate=2e-8,
     per_device_train_batch_size=batch_size,
     per_device_eval_batch_size=batch_size,
     weight_decay=0.01,
-    save_total_limit=3,
-    num_train_epochs=5,
+    save_total_limit=6,
+    num_train_epochs=10,
     predict_with_generate=True,
     fp16=True,
 )
