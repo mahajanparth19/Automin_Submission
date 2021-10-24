@@ -1,2 +1,2 @@
 # Automin_Submission
-This is the repo for submission for AutoMin
+This repo cntains the official submission of team AutoMinuters for AutoMin-2021 @ interspeech
